@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Bor.DataAccess.Core.Models
 {
     [Table("User")]
-    class UserRto
+    public class UserRto
     {
         #region главные поля
         [Key] public int Id { get; set; }

@@ -8,10 +8,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Bor.DataAccess.Core.Models
 {
     [Table("VirtualExpense")]
-    class VirtualExpenseRto
+   public class VirtualExpenseRto
     {
         [Key] public int Id { get; set; }
-        public int AuthorId { get; set; }
+        public int? UserId { get; set; }
+        public UserRto User { get; set; }
         public string WhereSpend { get; set; }
         public float Cost { get; set; }
         public CostCurrencyRto CostCurrency { get; set; }
