@@ -34,6 +34,26 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.1.1\lib\net461\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AvtoMapperProfiles\BusinessLogicProfile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bor.BusinessLogic.Core\Bor.BusinessLogic.Core.csproj">
+      <Project>{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}</Project>
+      <Name>Bor.BusinessLogic.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bor.DataAccess.Core\Bor.DataAccess.Core.csproj">
+      <Project>{14432E1E-5D01-4295-B279-0A3011C5BB7A}</Project>
+      <Name>Bor.DataAccess.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

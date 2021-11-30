@@ -35,5 +35,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="Interfaces\IUserService.cs" />
+    <Compile Include="Models\UserIdentityBlo.cs" />
+    <Compile Include="Models\UserInformationBlo.cs" />
+    <Compile Include="Models\UserUpdateBlo.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
