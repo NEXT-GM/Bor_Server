@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bor.BusinessLogic", "Bor.Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bor.BusinessLogic.Core", "Bor.BusinessLogic.Core\Bor.BusinessLogic.Core.csproj", "{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D2F9DF45-E334-4969-8C5E-C818C1F2B0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shareds", "Shareds\Shareds.csproj", "{A54EEB25-D56C-445E-A3BB-E66F17E13A02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54EEB25-D56C-445E-A3BB-E66F17E13A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54EEB25-D56C-445E-A3BB-E66F17E13A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54EEB25-D56C-445E-A3BB-E66F17E13A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54EEB25-D56C-445E-A3BB-E66F17E13A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{14432E1E-5D01-4295-B279-0A3011C5BB7A} = {C1BB0AE0-FE09-4201-BEEE-88E1A37E6D41}
 		{C607323F-B956-4FF2-9E95-0D9D50D4EF1C} = {E0C8FB3F-FB3C-44C0-87BD-2D04EC00BDF3}
 		{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F} = {E0C8FB3F-FB3C-44C0-87BD-2D04EC00BDF3}
+		{A54EEB25-D56C-445E-A3BB-E66F17E13A02} = {D2F9DF45-E334-4969-8C5E-C818C1F2B0D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FB2F6D1-5A8C-4020-8C78-9227AC9260AB}
