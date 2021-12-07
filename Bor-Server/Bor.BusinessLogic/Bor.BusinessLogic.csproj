@@ -123,14 +123,6 @@
       <Project>{B2FEBB5E-0DAA-4F4A-BE7B-DB4ACA49726F}</Project>
       <Name>Bor.BusinessLogic.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Bor.DataAccess.Core\Bor.DataAccess.Core.csproj">
-      <Project>{14432E1E-5D01-4295-B279-0A3011C5BB7A}</Project>
-      <Name>Bor.DataAccess.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Shareds\Shareds.csproj">
-      <Project>{A54EEB25-D56C-445E-A3BB-E66F17E13A02}</Project>
-      <Name>Shareds</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

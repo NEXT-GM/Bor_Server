@@ -1,0 +1,4 @@
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\12\bin\Debug\netcoreapp3.1\Bor.BusinessLogic.deps.json
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\12\bin\Debug\netcoreapp3.1\Bor.BusinessLogic.dll
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\12\obj\Debug\netcoreapp3.1\Bor.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\12\obj\Debug\netcoreapp3.1\Bor.BusinessLogic.AssemblyInfo.cs

@@ -1,0 +1,4 @@
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\1\bin\Debug\netcoreapp3.1\Bor.DataAccess.deps.json
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\1\bin\Debug\netcoreapp3.1\Bor.DataAccess.dll
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\1\obj\Debug\netcoreapp3.1\Bor.DataAccess.AssemblyInfoInputs.cache
+C:\Users\StudentDev\Documents\GitHub\Bor_Server\Bor-Server\1\obj\Debug\netcoreapp3.1\Bor.DataAccess.AssemblyInfo.cs
