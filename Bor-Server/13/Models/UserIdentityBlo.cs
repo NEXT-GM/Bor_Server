@@ -9,8 +9,8 @@ namespace Bor.BusinessLogic.Core.Models
     public class UserIdentityBlo
     {
         public int Id { get; set; }
-        public int NumberPrefix { get; set; }
-        public int Number { get; set; }
+        public string NumberPrefix { get; set; }
+        public string Number { get; set; }
         public string Password { get; set; }
         public string ConfingPassword { get; set; }
     }

@@ -50,9 +50,11 @@ namespace Bor.BusinessLogic.Services
             throw new NotImplementedException();
         }
 
-        public Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo, UserIdentityBlo userIdentityBlo)
+        public async Task<UserInformationBlo> Update(UserUpdateBlo userUpdateBlo, UserIdentityBlo userIdentityBlo)
         {
-            throw new NotImplementedException();
+            UserRto user = await _context.Users
+               .FirstOrDefaultAsync(e => e.PhoneNumberPrefix == userIdentityBlo.NumberPrefix &&
+               e.PhoneNumber == userIdentityBlo.Number && e.Password == userIdentityBlo.Password);
         }
         private async Task<UserInformationBlo> ConvertToUserInformation(UserRto userRto)
         {
